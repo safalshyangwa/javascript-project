@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-color: black;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 5px 5px 6px green,
+    -5px -5px 2px rgba(0, 0, 255, 0.615);
+    color:white;
+}
+
+#password{
+    height: 300px;
+    width:300px;
+    margin: 0 auto;                                         
+    border: 2px solid black;            
+    padding:20px;
+    background-color: rgba(255, 255, 0, 0.748);
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  7px 7px 7px 2px white,inset
+    7px 7px 7px 2px white ;
+    color:white;
+    font-size: 1.5rem;
+}
